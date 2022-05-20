@@ -1,0 +1,46 @@
+body {
+  background-color: var(--whiteColour);
+  color: var(--basic-colour);
+  font-family: "Roboto", sans-serif;
+}
+.section {
+  padding: 94px 0 94px 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.accent-colour {
+  color: var(--accentColour);
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
