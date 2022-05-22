@@ -4,21 +4,37 @@
   background: #2f303a;
 }
 .info {
+  @media screen and(max-width:480px) {
+    display: block;
+  }
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .footer-info {
-  margin-right: 70px;
 }
 
 .footer--logo {
+  @media screen and(min-width:480px) and(max-width:1199px) {
+    margin-top: 60px;
+  }
+  display: flex;
+  justify-content: center;
   color: var(--whiteColour);
+  margin: 0 auto;
 }
 
 .footer-address {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
   margin-top: 20px;
+  @media screen and(min-width:480px) {
+  }
 }
 .footer-contact {
+  display: flex;
+  justify-content: center;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -40,6 +56,12 @@
 }
 
 .footer-paragraph {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  @media screen and(min-width:480px) {
+    margin-top: 65px;
+  }
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -47,12 +69,20 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+.footer-paragraph__form {
+  @extend .footer-paragraph;
+}
 
 .footer-social {
-  width: 206px;
+  margin-bottom: 20px;
+  @media screen and(min-width:480px) and(max-width:1199px) {
+    margin-left: auto;
+    // margin-right: 89px;
+  }
 
   .footer-sosial__list {
     display: flex;
+    justify-content: center;
     margin-top: 20px;
   }
   &__item {
@@ -83,12 +113,21 @@
 }
 
 .footer-subscription {
-  margin-left: auto;
+  @media screen and(min-width:480px) {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 .form-group {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  @media screen and(min-width:1200px) {
+    flex-direction: row;
+  }
 }
 .footer-placeholder {
   padding-left: 16px;
@@ -109,8 +148,13 @@
 .footer-btn {
   display: flex;
   justify-content: center;
-  margin-left: 12px;
-  padding: 10px 28px;
+  margin-top: 20px;
+  @media screen and(min-width:1200px) {
+    margin-top: 0;
+    margin-left: 12px;
+    padding: 10px 28px;
+  }
+
   width: 200px;
   height: 50px;
   font-weight: 700;

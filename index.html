@@ -22,19 +22,80 @@
         <a class="logo header--logo" href="./index.html"
           ><span class="accent-colour">Web</span>Studio</a
         >
-        
-          <ul class="header-nav">
-            <li class="header-nav__item">
+
+        <ul class="header-nav">
+          <li class="header-nav__item">
+            <a class="current" href="./index.html">Студия</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="./index.html">Контакты</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="mobile-menu__btn"
+          data-menu-button
+          aria-expanded="false"
+        >
+          <svg class="mobile-menu__icon" width="40" height="40">
+            <use
+              class="icon-open"
+              href="./images/symbol-defs.svg#icon-burger-menu"
+            ></use>
+            <use
+              class="icon-close"
+              href="./images/symbol-defs.svg#close-black"
+            ></use>
+          </svg>
+        </button>
+        <div class="mobile-menu" data-menu>
+          <ul class="mobheader-nav">
+            <li class="mobheader-nav__item">
               <a class="current" href="./index.html">Студия</a>
             </li>
-            <li class="header-nav__item">
-              <a class="header-nav__link" href="./portfolio.html">Портфолио</a>
+            <li class="mobheader-nav__item">
+              <a class="mobheader-nav__link" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="header-nav__item">
-              <a class="header-nav__link" href="./index.html">Контакты</a>
+            <li class="mobheader-nav__item">
+              <a class="mobheader-nav__link" href="./index.html">Контакты</a>
             </li>
           </ul>
-        </nav>
+
+          <ul class="mobaddress mobaddress--head">
+            <li class="mobaddress__list">
+              <a class="mobaddress__contact" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+
+            <li class="mobaddress__list">
+              <a class="mobaddress__contact" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">Instagram</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">Twitter</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">Facebook</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+
         <ul class="address address--head">
           <li class="address__list">
             <a class="address__contact" href="mailto:info@devstudio.com">
@@ -57,7 +118,7 @@
       </div>
     </header>
 
-    <!-- <main>
+    <main>
       <section class="section section--hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -158,64 +219,64 @@
             </svg>
           </button>
         </div>
-      </div>-->
-    -->
-    <!--<section class="section benefits">
-      <div class="container">
-        <ul class="benefits__list">
-          <li class="benefits__item">
-            <div class="benefits__logo">
-              <svg width="70" height="70">
-                <use href="./images/symbol-defs.svg#icon-antenna"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__header">Внимание к деталям</h3>
-            <p class="benefits__mean">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="benefits__item">
-            <div class="benefits__logo">
-              <svg width="70" height="70">
-                <use href="./images/symbol-defs.svg#icon-clock"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__header">Пунктуальность</h3>
-            <p class="benefits__mean">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="benefits__item">
-            <div class="benefits__logo">
-              <svg width="70" height="70">
-                <use href="./images/symbol-defs.svg#icon-diagram"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__header">Планирование</h3>
-            <p class="benefits__mean">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="benefits__item">
-            <div class="benefits__logo">
-              <svg width="70" height="70">
-                <use href="./images/symbol-defs.svg#icon-astronaut"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__header">Современные технологии</h3>
-            <p class="benefits__mean">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
       </div>
-    </section>-->
 
-    <!-- <section class="section sample">
+      <section class="section benefits">
+        <div class="container">
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <div class="benefits__logo">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__header">Внимание к деталям</h3>
+              <p class="benefits__mean">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__logo">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__header">Пунктуальность</h3>
+              <p class="benefits__mean">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__logo">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__header">Планирование</h3>
+              <p class="benefits__mean">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__logo">
+                <svg width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__header">Современные технологии</h3>
+              <p class="benefits__mean">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- <section class="section sample">
         <div class="container">
           <h2 class="sample__header">Чем мы занимаемся</h2>
           <ul class="sample__list">
@@ -559,7 +620,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
 
       <section class="section clients">
         <div class="container">
@@ -604,6 +665,7 @@
         </div>
       </section>
     </main>
+    -->
     <footer class="footer">
       <div class="container info">
         <div class="footer-info">
@@ -691,7 +753,7 @@
           </ul>
         </div>
         <form class="footer-subscription">
-          <b for="user-email" class="footer-paragraph"
+          <b for="user-email" class="footer-paragraph__form"
             >Подпишитесь на рассылку
           </b>
           <div class="form-group">
@@ -712,6 +774,8 @@
         </form>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>-->
+    -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
