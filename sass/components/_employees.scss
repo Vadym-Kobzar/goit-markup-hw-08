@@ -11,7 +11,12 @@
     color: var(--secondary-colour);
   }
   &__set {
-    flex-direction: column;
+    @media screen and(max-width:480px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     margin: 0;
     padding: 0;
   }
@@ -31,6 +36,9 @@
 }
 
 .employees-card__item:not(:last-child) {
+  @media screen and(max-width:480px) {
+    margin-right: 0;
+  }
   margin-right: 30px;
 }
 .employees-card__item {
