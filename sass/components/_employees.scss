@@ -11,36 +11,40 @@
     color: var(--secondary-colour);
   }
   &__set {
+    display: flex;
     @media screen and(max-width:480px) {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+  }
+  @media screen and(min-width:768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-    margin: 0;
-    padding: 0;
-  }
-  &__name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--secondary-colour);
-    text-align: center;
-  }
+  padding: 0;
 }
+&__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-colour);
+  text-align: center;
+}
+
 .employees-list {
   display: flex;
   margin: 0;
   padding: 0;
 }
-
-.employees-card__item:not(:last-child) {
+.employees-card__item {
   @media screen and(max-width:480px) {
     margin-right: 0;
   }
-  margin-right: 30px;
 }
+
 .employees-card__item {
   position: relative;
   max-width: 370px;
@@ -49,6 +53,10 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.employees-card__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .employees-item {
   position: relative;
   max-width: 370px;

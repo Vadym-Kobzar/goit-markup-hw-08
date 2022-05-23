@@ -907,7 +907,9 @@ a {
 }
 
 .employees__set {
-  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0;
 }
 
@@ -923,6 +925,21 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+.employees__set .employees__set:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .employees__set {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -947,7 +964,7 @@ a {
   margin-right: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .employees-card__item:not(:last-child) {
     margin-right: 0;
   }
