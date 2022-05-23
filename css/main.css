@@ -290,6 +290,25 @@ a {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 480px) {
+  .modal-checkbox__link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .accept {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+
 .backdrop__btn {
   position: absolute;
   top: 8px;

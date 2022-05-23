@@ -133,9 +133,27 @@
 }
 
 .modal-checkbox__link {
+  @media screen and(max-width:480px) {
+    font-size: 12px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+  }
   margin-left: 4px;
   color: rgba(33, 150, 243, 1);
   text-decoration: underline;
+}
+.accept {
+  @media screen and(max-width:480px) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+  }
 }
 
 .backdrop__btn {
