@@ -828,6 +828,12 @@ a {
   padding-top: 47px;
 }
 
+@media screen and (max-width: 1199px) {
+  .sample {
+    display: none;
+  }
+}
+
 .sample__header {
   margin-bottom: 50px;
   text-align: center;
