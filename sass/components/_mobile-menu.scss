@@ -22,7 +22,6 @@
   //display: none;
   // }
 
-  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,7 +68,6 @@
   }
 }
 .mobaddress--head {
-  margin-top: auto;
   margin-bottom: 64px;
 }
 
@@ -87,8 +85,12 @@
     }
   }
 }
+.mobile-menu__list {
+  margin-bottom: 48px;
+}
 
-.mobheader__nav {
+.mobheader-nav {
+  margin-bottom: 562px;
 }
 .mobheader-nav__item {
 }
