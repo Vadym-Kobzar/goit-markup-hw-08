@@ -59,7 +59,7 @@
   display: flex;
   justify-content: center;
   margin-top: 60px;
-  @media screen and(min-width:480px) {
+  @media screen and(max-width:1199px) {
     margin-top: 65px;
   }
   font-weight: 700;
@@ -71,6 +71,7 @@
 }
 .footer-paragraph__form {
   @extend .footer-paragraph;
+  margin-top: 0;
 }
 
 .footer-social {
@@ -149,6 +150,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 60px;
   @media screen and(min-width:1200px) {
     margin-top: 0;
     margin-left: 12px;
