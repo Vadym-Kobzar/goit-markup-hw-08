@@ -90,7 +90,23 @@
 }
 
 .mobheader-nav {
-  margin-bottom: 562px;
+  margin-bottom: 100px;
 }
-.mobheader-nav__item {
+.mobheader-nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.mobcurrent {
+  @extend .current;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
 }

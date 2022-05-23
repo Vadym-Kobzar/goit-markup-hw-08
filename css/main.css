@@ -395,7 +395,7 @@ a {
   color: var(--accentColour);
 }
 
-.current {
+.current, .mobcurrent {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -403,7 +403,7 @@ a {
   color: var(--accentColour);
 }
 
-.current::after {
+.current::after, .mobcurrent::after {
   content: "";
   position: absolute;
   top: 250%;
@@ -599,7 +599,24 @@ a {
 }
 
 .mobheader-nav {
-  margin-bottom: 562px;
+  margin-bottom: 100px;
+}
+
+.mobheader-nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mobcurrent {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
 }
 
 .section--hero {
