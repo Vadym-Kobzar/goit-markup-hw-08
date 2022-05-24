@@ -320,13 +320,15 @@
           <ul class="employees__set">
             <li class="employees-card__item">
               <picture>
-                <source srcset="./images/igor.jpg 1x, ./images/igor@2x.jpg2x" />
+                <source
+                  srcset="./images/igor.jpg 1x, ./images/igor@2x.jpg 2x"
+                />
+                <img
+                  src="./images/igor.jpg"
+                  alt="улыбающийся парень в очках и с бородой"
+                  width="270"
+                />
               </picture>
-              <img
-                src="images/igor.jpg"
-                alt="улыбающийся парень в очках и с бородой"
-                width="270"
-              />
 
               <div class="employees-groop">
                 <h3 class="employees__name">Игорь Демьяненко</h3>
@@ -756,9 +758,7 @@
           </ul>
         </div>
         <form class="footer-subscription">
-          <b for="user-email" class="footer-paragraph__form"
-            >Подпишитесь на рассылку
-          </b>
+          <b class="footer-paragraph__form">Подпишитесь на рассылку </b>
           <div class="form-group">
             <input
               class="footer-placeholder"
