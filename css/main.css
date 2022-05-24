@@ -679,10 +679,6 @@ a {
   max-width: 1600px;
   text-align: center;
   margin: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/mobphotoheader2x.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobphotoheader2x.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -691,10 +687,28 @@ a {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   .section--hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/mobpfotoheader.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobpfotoheader.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.../images/headermob.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.../images/headermob.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section--hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.../images/headertab.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.../images/headertab.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section--hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/headerdesk.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/headerdesk.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -1085,11 +1099,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-/* color: var(--secondary-colour);
-  @media screen and(max-width:479px) {
-    font-size: 28px;
-    line-height: 1.18;
-  }*/
 .clients-logo__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1123,9 +1132,6 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 0;
-  /*&:not(:first-child) {
-    margin-left: 30px;
-  }*/
 }
 
 .clients-container:hover, .clients-container:focus {
