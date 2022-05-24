@@ -321,7 +321,8 @@
             <li class="employees-card__item">
               <picture>
                 <source
-                  srcset="./images/igor.jpg 1x, ./images/igor@2x.jpg 2x"
+                  srcset="./images/igor1x.jpg 1x, ./images/igor@2x.jpg 2x"
+                  sizes=""
                 />
                 <img
                   src="images/igor.jpg"
@@ -401,7 +402,7 @@
             <li class="employees-card__item">
               <picture>
                 <source
-                  srcset="./images/olga1x.jpg 1x, ./images/olga2x.jpg 2x"
+                  srcset="./images/olga1x.jpg 1x, ./images/olga@2x.jpg 2x"
                 />
                 <img
                   src="images/olga.jpg"
@@ -479,11 +480,16 @@
               </div>
             </li>
             <li class="employees-card__item">
-              <img
-                src="images/nikolay.jpg"
-                alt="смеющийся бородатый парень в рубашке"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/nikolay1x.jpg 1x, ./images/nikolay@2x.jpg 2x"
+                />
+                <img
+                  src="images/nikolay.jpg"
+                  alt="смеющийся бородатый парень в рубашке"
+                  width="270"
+                />
+              </picture>
               <div class="employees-groop">
                 <h3 class="employees__name">Николай Тарасов</h3>
                 <p class="employees-position">Marketing</p>
@@ -553,11 +559,17 @@
               </div>
             </li>
             <li class="employees-card__item">
-              <img
-                src="images/mihail.jpg"
-                alt="улыбающийся парень в футболке с очками и бородой"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="./images/mikhail1x.jpg 1x, ./images/mikhail@2x.jpg 2x"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  src="images/mihail.jpg"
+                  alt="улыбающийся парень в футболке с очками и бородой"
+                  width="270"
+                />
+              </picture>
 
               <div class="employees-groop">
                 <h3 class="employees__name">Михаил Ермаков</h3>
@@ -782,7 +794,7 @@
         </form>
       </div>
     </footer>
-    -->
+
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
