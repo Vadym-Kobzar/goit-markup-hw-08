@@ -30,7 +30,6 @@ body {
 }
 
 .container {
-  outline: 1px solid red;
   max-width: 480px;
   margin: 0 auto;
   padding: 0 15px;
@@ -689,6 +688,10 @@ a {
 
 @media screen and (min-width: 480px) {
   .section--hero {
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/fonmob1x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fonmob1x.jpg);
     background-size: cover;
@@ -721,6 +724,8 @@ a {
 
 @media screen and (min-width: 1200px) {
   .section--hero {
+    font-size: 44px;
+    line-height: 1.36;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/fondesk1x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fondesk1x.jpg);
     background-size: cover;
@@ -1214,6 +1219,14 @@ a {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer--logo {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 .footer-address {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1224,6 +1237,14 @@ a {
           flex-direction: column;
   font-style: normal;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-address {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
 
 .footer-contact {
