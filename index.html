@@ -321,7 +321,19 @@
             <li class="employees-card__item">
               <picture>
                 <source
-                  srcset="./images/igor1x.jpg 1x, ./images/igor@2x.jpg 2x"
+                  srcset="
+                    ./images/igordesk1x.jpg 1x,
+                    ./images/igordesk2x.jpg 2x
+                  "
+                  media="(max-width: 1200px)"
+                />
+                <source
+                  srcset="./images/igortab1x.jpg 1x, ./images/igortab2x.jpg 2x"
+                  media="(max-width: 768px)"
+                />
+                <source
+                  srcset="./images/igormob1x.jpg 1x, ./images/igormob2x.jpg 2x"
+                  media="(max-width: 320px)"
                 />
                 <img
                   src="images/igor.jpg"
@@ -561,8 +573,8 @@
               <picture>
                 <source
                   srcset="
-                    ./images/mikhaildesk1x.jpg  1x,
-                    ./images/mikhaildesk@2x.jpg 2x
+                    ./images/mikhaildesk1x.jpg 1x,
+                    ./images/mikhaildesk2x.jpg 2x
                   "
                   media="(max-width: 1200px)"
                 />
@@ -579,7 +591,7 @@
                     ./images/mikhailmob1x.jpg  1x,
                     ./images/mikhailmob@2x.jpg 2x
                   "
-                  media="(max-width: 480px)"
+                  media="(max-width: 320px)"
                 />
                 <img
                   src="images/mikhail.jpg"
