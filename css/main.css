@@ -1125,12 +1125,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 480px) {
-  .clients-header {
-    font-size: 28px;
-  }
-}
-
 .clients-logo__list {
   display: -webkit-box;
   display: -ms-flexbox;
