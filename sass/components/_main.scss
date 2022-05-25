@@ -35,7 +35,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/headertab.jpg);
+      url(../../images/fontab1x.jpg);
     background-size: cover;
     background-position: center;
 
@@ -48,7 +48,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/headertab@2x.jpg);
+        url(../../images/fontab2x.jpg);
     }
   }
   @media screen and(max-width:1200px) {
@@ -57,7 +57,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/headerdesk.jpg);
+      url(../../images/fondesk1x.jpg);
     background-size: cover;
     background-position: center;
 
@@ -70,7 +70,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/headerdesk@2x.jpg);
+        url(../images/fondesk2x.jpg);
     }
   }
 }
