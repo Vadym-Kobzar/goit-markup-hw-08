@@ -42,11 +42,6 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  @media screen and(min-width:1200px) {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
 }
 .portfolio-card__item {
   background-color: var(--whiteColour);
