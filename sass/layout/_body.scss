@@ -4,7 +4,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .section {
-  padding: 94px 0 94px 0;
+  padding: 60px 0;
+  @media screen and(min-width:1200px) {
+    padding: 94px 0;
+  }
 }
 .container {
   max-width: 480px;
