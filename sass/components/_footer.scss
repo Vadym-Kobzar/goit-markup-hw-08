@@ -67,11 +67,9 @@
 }
 
 .footer-paragraph {
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
   @media screen and(max-width:1199px) {
-    margin-top: 65px;
+    margin-top: 60px;
+    text-align: center;
   }
   font-weight: 700;
   font-size: 14px;
@@ -89,7 +87,6 @@
 }
 
 .footer-social {
-  margin-top: 60px;
   @media screen and(min-width:481px) and(max-width:1199px) {
     margin-left: 165px;
 
@@ -133,11 +130,10 @@
 }
 
 .footer-subscription {
-  @media screen and(min-width:480px) {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-  }
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+
   @media screen and(min-width:1200px) {
     margin-top: 0;
     margin-right: 0;
